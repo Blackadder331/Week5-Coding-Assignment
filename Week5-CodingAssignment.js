@@ -1,4 +1,4 @@
-// BUILD AN ADVEMTURING PARTY!
+// BUILD AN ADVENTURING PARTY!
 // Create an adventuring party for an online RPG that allows multiple saved adventuring party compositions in the menu
 
 // Party Name:
@@ -136,7 +136,7 @@ class Menu {
         let name = prompt('Enter name for a new player:');
         let role = prompt('Enter role for a new player:');
         this.selectedParty.players.push(new Player(name, role));
-        document.write(`${name} the ${role} of ${this.selectedParty.name} <br>`); // write player name and role party name // how to delete or return an array
+        document.write(`${name} the ${role} of ${this.selectedParty.name} <br>`); // write player name and role party name
     }
 
     deletePlayer() {
@@ -151,9 +151,3 @@ class Menu {
 
 let menu = new Menu();
 menu.start();
-
-// document.write(players); How do I show the final results?
-// document.write(parties);
-
-// let allPlayers = [];
-// let allParties = [];
