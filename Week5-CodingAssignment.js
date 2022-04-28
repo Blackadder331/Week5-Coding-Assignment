@@ -137,7 +137,7 @@ class Menu {
         let name = prompt('Enter name for a new player:');
         let role = prompt('Enter role for a new player:');
         this.selectedParty.players.push(new Player(name, role));
-        //document.write(`${name} the ${role} of ${this.selectedParty.name} <br>`); // write player name and role party name // How to use -> of ${parties}
+        document.write(`${name} the ${role} of ${this.selectedParty.name} <br>`); // write player name and role party name // How to use -> of ${parties}
     }
 
     deletePlayer() {
